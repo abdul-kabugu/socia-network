@@ -3,7 +3,7 @@ import { LgTitle, SectionSubtitle, SmallTxt, StepBox, StepsContainer, ViewThreeC
 import { DownloadOutlined, FormOutlined, LoginOutlined } from '@ant-design/icons'
 
 
-const HomeViewTthree = () => {
+const HowToUse = () => {
     return (
         <ViewThreeContainer>
            <LgTitle>using weCollabo</LgTitle> 
@@ -20,7 +20,7 @@ const HomeViewTthree = () => {
 
             <StepBox>
                     <FormOutlined   style={{color : "#FF8988", fontSize: "50px"}}/>
-                  <SmallTxt>start creating <br /> & growing onchain</SmallTxt>
+                  <SmallTxt>start creating <br /> & growing on chain</SmallTxt>
             </StepBox>
            </StepsContainer>
         </ViewThreeContainer>
@@ -28,4 +28,4 @@ const HomeViewTthree = () => {
 }
 
 
-export default HomeViewTthree;
+export default HowToUse;

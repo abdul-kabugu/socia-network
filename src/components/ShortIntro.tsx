@@ -1,7 +1,7 @@
 import React from 'react';
 import { SectionSubtitle, SectionTitle, ViewTwoContainer } from '../Styles';
 
-const HomeViewTow = () => {
+const ShortIntro = () => {
     return (
         <ViewTwoContainer>
             <SectionTitle>what is weCollabo?</SectionTitle>
@@ -14,4 +14,4 @@ const HomeViewTow = () => {
 
 
 
-export default HomeViewTow;
+export default ShortIntro;

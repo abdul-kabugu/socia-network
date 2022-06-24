@@ -1,8 +1,8 @@
 import React from 'react';
 import HomeView from '../components/HomeView'
-import HomeViewFour from '../components/HomeViewFour';
-import HomeViewTow from '../components/HomeViewTow';
-import HomeViewTthree from '../components/HomeViewTthree';
+import FeatureOne from '../components/FeatureOne';
+import ShortIntro from '../components/ShortIntro';
+import HowToUse from '../components/HowToUse';
 import TopBar from '../components/TopBar';
 import { HomeContainer } from '../Styles';
 const Home = () => {
@@ -10,9 +10,9 @@ const Home = () => {
       <HomeContainer>
          <TopBar />
         <HomeView  />
-        <HomeViewTow  />
-       <HomeViewTthree />
-       <HomeViewFour />
+        <ShortIntro />
+        <HowToUse />
+       <FeatureOne />
         </HomeContainer> 
     )
 }

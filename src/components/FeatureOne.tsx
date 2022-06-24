@@ -1,7 +1,7 @@
 import React from 'react';
 import { LgTitle, SectionSubBlack, SectionSubtitle, ViewFourContainer } from '../Styles';
 
-const HomeViewFour = () => {
+const FeatureOne = () => {
     return (
         <ViewFourContainer>
             <LgTitle>A User-Owned Social Network</LgTitle>
@@ -13,4 +13,4 @@ const HomeViewFour = () => {
 }
 
 
-export default HomeViewFour;
+export default FeatureOne;
