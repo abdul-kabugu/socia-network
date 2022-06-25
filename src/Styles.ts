@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const AppContainer = styled.div`
-background-color: red;
+
 
 
 
@@ -20,17 +20,19 @@ export const TopBarContainer = styled.div`
  justify-content: space-between ;
  padding: 0 20px ;
  height: 60px ;
+ align-items: center ;
   
 `
 export const NavLeft =  styled.div`
   
- 
    display: flex;
    align-items: center;
 `
 export const NavCenter =  styled.div`
    width: 30% ;
-  
+   
+    
+    
  
  
 `
@@ -174,3 +176,67 @@ export const ViewFourContainer = styled.div`
 
 
 `
+//CREATE PAGE 
+export const  CreateProfileContainer = styled.div`
+ height: 100vh ;
+background-image: linear-gradient(to bottom right, #F4D8E2, #F8F8F8,#DFDFF6,#F8F8F8);
+width: 100vw;
+  
+
+`
+export const UserStepsContainer = styled.div`
+ width: 99vw ;
+ 
+ margin: 0 auto ;
+ padding: 12px ;
+ border-radius: 14px ;
+
+display: flex;
+
+
+`
+
+export const ConnectWalletContainer = styled.div`
+
+
+`
+export const StepTwoContainer = styled.div`
+display: flex;
+flex-direction: column ;
+width: 300px ;
+
+`
+export const StepThreeContainer = styled.div`
+margin-bottom:60px ;
+
+`
+export const StepTitle = styled.h4`
+ font-family: 'Montserrat', sans-serif;
+  font-weight: 700 ;
+  font-size: 30px;
+  line-height: 40px ;
+`
+export const Input = styled.input`
+padding: 10px 20px ;
+border-radius: 14px;
+border: unset ;
+outline: none;
+margin-bottom: 10px ;
+border: 2px solid black ;
+&:hover{
+  
+outline: none;
+}
+`
+export const Image = styled.img``
+export const AvatarContainer = styled.div``
+export const BottomNav = styled.div`
+  background-color: black ;
+  width: 100vw;
+  height: 60px ;
+  position: fixed ;
+  top:auto ;
+  bottom: 0 ;
+
+`
+

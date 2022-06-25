@@ -1,10 +1,10 @@
 import React from 'react';
 import { Logo, NavCenter, NavItem, NavLeft, NavList, NavRight, StartBtn, TopBarContainer } from '../Styles';
-
+import {Link} from 'react-router-dom'
 const TopBar = () => {
     return <TopBarContainer>
       <NavLeft>
-      <Logo>weCollabo</Logo>
+      <Logo> <Link to="/" style={{color: "black", textDecoration: "none"}}> weCollabo </Link></Logo>
       </NavLeft>
       <NavCenter>
         <NavList>
@@ -16,7 +16,7 @@ const TopBar = () => {
         </NavList>
         </NavCenter>
       <NavRight>
-          <StartBtn>get started</StartBtn>
+          <StartBtn><Link to="/create-profile" style={{textDecoration: "none", color: "white"}}> get started </Link></StartBtn>
       </NavRight>
     </TopBarContainer>
 }
