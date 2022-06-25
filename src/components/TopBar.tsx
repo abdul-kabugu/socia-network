@@ -11,6 +11,7 @@ const TopBar = () => {
            <NavItem>home</NavItem> 
             <NavItem>news</NavItem>
             <NavItem>community</NavItem>
+            <NavItem><Link to="/shots" style={{color: "black", textDecoration: "none"}}>shots </Link></NavItem>
            
         
         </NavList>

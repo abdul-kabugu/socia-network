@@ -239,4 +239,10 @@ export const BottomNav = styled.div`
   bottom: 0 ;
 
 `
+export const ShotsContainer = styled.div`
+
+background-color: yellow ;
+background-image: linear-gradient(to bottom right, #F4D8E2, #F8F8F8,#DFDFF6,#F8F8F8);
+width: 100vw;
+`
 

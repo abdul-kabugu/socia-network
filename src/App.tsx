@@ -1,9 +1,11 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import  Home from './pages/Home'
 import { AppContainer } from './Styles';
 import {Routes, Route} from 'react-router-dom'
 import CreateProfile from './pages/CreateProfile';
 import {createGlobalStyle} from "styled-components"
+import { connect } from './logics/Index';
+import ShotsPage from './pages/ShotsPage';
 const GlobalStyles = createGlobalStyle`
   *{
   
@@ -30,14 +32,18 @@ code {
 }
 `
  
-
+  
 function App() {
+  useEffect(() => {
+    connect()
+  }, [])
   return (
     <AppContainer>
       <GlobalStyles />
       <Routes>
         <Route  path="/"  element={<Home />}   />
          <Route path='/create-profile'  element={<CreateProfile />}  />
+         <Route path='/shots'  element={<ShotsPage />}  />
         </Routes>
       </AppContainer>
        
